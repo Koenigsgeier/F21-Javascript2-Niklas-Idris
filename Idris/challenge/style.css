@@ -18,7 +18,7 @@ body {
 
 .container {
     height: 5vh;
-    padding: 3vh 3vh 10vh;
+    padding: 3vh 3vh 15vh;
     border: 5px solid black;
     border-radius: 2%;
     background-color: lightgray;
@@ -29,9 +29,13 @@ body {
     height: min-content;
 }
 
+.container h2 {
+    height: min-content;
+}
+
 .result {
     height: 3vh;
-    padding-top: 7vh;
+    padding-top: 12vh;
 }
 
 .result div {
