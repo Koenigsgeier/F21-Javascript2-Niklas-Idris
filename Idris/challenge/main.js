@@ -12,7 +12,7 @@ function atmPayout() {
                 money = money - note[a]; // Calculates the money left.
                 numofno = numofno + 1;
                 if(money < note[a]) {
-                    output += note[a] + ' X ' + numofno;
+                    output = note[a] + ' X ' + numofno;
                     console.log(output);
                     a = a + 1;
                     numofno = 0;
@@ -26,3 +26,4 @@ function atmPayout() {
         alert('Please insert multiple of 10€');
     }
 };
+atmPayout();
